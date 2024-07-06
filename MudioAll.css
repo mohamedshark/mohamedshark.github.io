@@ -34,12 +34,7 @@ body{
     list-style: none;
 
 }
-.Navs li{
-    display: flex;
 
-    /* margin-left: 30px; */
-    
-}
 
 
 .nav-icons{
@@ -51,7 +46,8 @@ body{
     width: 130%;
     border-radius: 8px;
     background: linear-gradient(to right, #fde3e7, #f5f5dc);
-
+    transition: all 0.2s;
+    box-shadow: -4px 4px  rgba(49, 21, 23, 0.753);
 }
 
 
@@ -65,12 +61,6 @@ body{
 
 
 
-
-.nav-icons:hover{
-
-    transition: all 0.2s;
-    box-shadow: -4px 4px  rgba(49, 21, 23, 0.753);
-}
 .nav-icons:active{
 
     transition: all 0.2s;
